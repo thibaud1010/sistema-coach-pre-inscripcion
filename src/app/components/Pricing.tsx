@@ -113,21 +113,6 @@ export function Pricing() {
             </span>
           </h2>
 
-          {/* Bannière pré-vente */}
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="flex flex-col items-center gap-2 px-8 py-5 bg-gradient-to-r from-[#FFD700]/15 via-[#FFD700]/8 to-transparent border border-[#FFD700]/30 rounded-2xl backdrop-blur-xl max-w-2xl mx-auto text-center"
-          >
-            <p className="text-white/90 text-base sm:text-lg leading-relaxed">
-              <span className="text-[#FFD700] font-black text-xl sm:text-2xl">¡Pre-venta!</span>{' '}
-              Puedes hacer tu pedido ahora para aprovechar la tarifa preferencial.{' '}
-              <span className="text-white font-bold">Tendrás acceso al programa a partir del 9 de marzo.</span>
-            </p>
-          </motion.div>
-
         </motion.div>
 
         {/* Pricing cards */}
